@@ -4,6 +4,7 @@
     margin: 0;
     color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 body{
     padding: 0;
@@ -353,7 +354,7 @@ li{
 }
 #protfolio .rap .allprofoliobox{
     padding: 10px;
-    width: 1350px;
+    width: 1250px;
     margin: auto;
     margin-bottom: 67px;
     display: flex;
@@ -475,6 +476,10 @@ li{
     color: #fff;
     cursor: pointer;
 }
+#contact .contactForm  button:hover{
+    background: linear-gradient(90deg, blue,red);
+
+}
 #contact .contactForm .form-group textarea{
     width: 100%;
     padding: 10px;
@@ -486,3 +491,21 @@ li{
     border: 1px solid #d7cdcd;
     resize: none;
 }
+/* =================================fotter section ============================= */
+#footer{
+    background-color:#0d053f ;
+ }
+#footer .socal-link{
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+ }
+ #footer .socal-link div a {
+    color: #fff;
+    position: relative;
+    padding: 0 3px;
+ }
+ #footer .socal-link div a i{
+    color: #fff;
+    padding: 10px;
+ }
